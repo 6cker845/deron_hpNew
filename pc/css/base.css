@@ -1,0 +1,11 @@
+.menu{
+	margin:0 auto;
+	width:950px;
+	min-height:210px;
+}
+
+.menu li{
+	float:left;
+	list-style:none;
+	margin-right:10px;
+}
