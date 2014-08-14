@@ -1,0 +1,41 @@
+
+#slideshow {
+	margin-bottom: 10px;
+	min-height: 300px;
+}
+
+#slideshow li {
+	text-align: center;
+	font-size: 80%;
+	color: #666;
+	float: left;
+	margin: 15px;
+	min-height: 100px;
+}
+
+#slideshow img {
+	margin-bottom: 5px;
+}
+
+nav {
+	clear: both;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 5 px;
+}
+
+#largeImg {
+	display: none;
+	border: 1px solid #fff;
+}
+
+#cover {
+	background: rgba(0,0,0,0.5);
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
