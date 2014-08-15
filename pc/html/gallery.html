@@ -41,10 +41,7 @@
 		<div id="slideshow" class="clearfix"></div>
 		
 		<nav>
-			<ul>
-			<div id="rijfPhoto"></div> <br>
-			<li><img src="../images/rijf1.png" width="100"></li> <br>
-			
+			<ul>			
 			<li><a href="#">&laquo; 前の10件へ</a></li>
 			<li><a href="#">次ぎの10件へ &raquo;</a></li>
 			</ul>
@@ -57,17 +54,7 @@
 
 <!-- <script src="../js/gallery.js"></script> -->
 <script type="text/javascript" src="../js/jquery/jquery.js"></script>
-<script type="text/javascript">
-	$.getJSON('../js/json/images.json', null, function(json) {
-		var ul = $('<ul>')
-		for (var i=0; i<json.length; i++) {
-			ul.append('<li><img src="' + json[i].image + '" width="100"></a><br><p>' + json[i].label + '</p></li>');
-			console.log(json[i].image);
-		}
-		
-		$('#slideshow').html(ul);
-});
-</script>
+<script src="../js/gallery.js"></script>
 
 
 </body>
