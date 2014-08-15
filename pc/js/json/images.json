@@ -1,24 +1,43 @@
 {
+	"event": [  
+        {  
+            "label": "rock in Japan fes",
+            "image": "../image/rijf/top.png",
+            "link" : "gallery/rijf-140809.html"
+        }, 
+        {  
+        	"label": "横浜B.B.Street",
+            "image": "../image/BBStreet/top.png",
+            "link" : "gallery/BB0710.html"
+
+        },
+        {  
+        	"label": "下北沢GARAGE",
+            "image": "../image/Garage/top.png",
+            "link" : "gallery/garage-140615.html"
+
+        }
+	],	
 	"rijf": [  
         {  
             "label": "image1",
-            "image": "../image/rijf/img1.png"
+            "image": "image/rijf/img1.png"
         }, 
         {  
         	"label": "image2",
-            "image": "../image/rijf/img2.png"
+            "image": "image/rijf/img2.png"
         },
         {  
         	"label": "image3",
-            "image": "../image/rijf/img3.png"
+            "image": "image/rijf/img3.png"
         },  
         {  
        		"label": "image4",
-            "image": "../image/rijf/img4.png"
+            "image": "image/rijf/img4.png"
         },    
         {  
         	"label": "image5",
-            "image": "../image/rijf/img5.png"
+            "image": "image/rijf/img5.png"
         }
 	]
 }
