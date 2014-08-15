@@ -1,0 +1,22 @@
+[  
+        {  
+            "label": "image1",
+            "image": "../images/rijf1.png"
+        }, 
+        {  
+        	"label": "image2",
+            "image": "../images/rijf2.png"
+        },
+        {  
+        	"label": "image3",
+            "image": "../images/rijf3.png"
+        },  
+        {  
+       		"label": "image4",
+            "image": "../images/rijf4.png"
+        },    
+        {  
+        	"label": "image5",
+            "image": "../images/rijf5.png"
+        }
+]

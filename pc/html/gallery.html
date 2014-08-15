@@ -7,6 +7,9 @@
 
 <title>deronderonderon official site</title>
 
+<link rel="stylesheet" href="../css/base.css" type="text/css">
+<link rel="stylesheet" href="../css/gallery.css" type="text/css">
+
 </head>
 
 <body>
@@ -15,40 +18,56 @@
 	<ul class="navi">
     	<div class="menu">
 		<li>
-        <a href="index.html">home
-        </a>
-		</li>
-		<li>
-        <a href="bio.html">biography
-        </a>
-        </li>
-		<li>
-        <a href="music.html">music
-        </a>				
-        </li>
-        <li>
-        <a href="live.html">live
-        </a>				
-        </li>
-		<li>
-        <a href="album.html">album
-        </a>
-        </li>
-		<li>
-        <a href="gallery.html">gallery
-        </a>
-        </li>
-        <li>
-        <a href="video.html">video
-        </a>
-		</li> 
-		<li>
-        <a href="contact.html">contact
-        </a>
-		</li>
+        <a href="index.html">home</a></li>
+		<li><a href="bio.html">biography</a></li>
+		<li><a href="music.html">music</a></li>
+        <li><a href="live.html">live</a></li>
+		<li><a href="album.html">album</a></li>
+		<li><a href="gallery.html">gallery</a></li>
+        <li><a href="video.html">video</a></li> 
+		<li><a href="contact.html">contact</a></li>
         </div>
 	</ul>
 </div>
+
+<header>
+<div class="inner">
+	<h1><span>slideshow</span>スライドショースクリプト</h1>
+</div>
+<!-- header --></header>
+
+<div id="contents">
+	<div class="inner">
+		<div id="slideshow" class="clearfix"></div>
+		
+		<nav>
+			<ul>
+			<div id="rijfPhoto"></div> <br>
+			<li><img src="../images/rijf1.png" width="100"></li> <br>
+			
+			<li><a href="#">&laquo; 前の10件へ</a></li>
+			<li><a href="#">次ぎの10件へ &raquo;</a></li>
+			</ul>
+		</nav>
+	<!-- inner --></div>
+<!-- contents --></div>
+
+<div id="cover"></div>
+<div id="largeImg"><img width="400" src=""></div>
+
+<!-- <script src="../js/gallery.js"></script> -->
+<script type="text/javascript" src="../js/jquery/jquery.js"></script>
+<script type="text/javascript">
+	$.getJSON('../js/json/images.json', null, function(json) {
+		var ul = $('<ul>')
+		for (var i=0; i<json.length; i++) {
+			ul.append('<li><img src="' + json[i].image + '" width="100"></a><br><p>' + json[i].label + '</p></li>');
+			console.log(json[i].image);
+		}
+		
+		$('#slideshow').html(ul);
+});
+</script>
 
 
 </body>
