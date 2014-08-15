@@ -2,23 +2,23 @@
 	"rijf": [  
         {  
             "label": "image1",
-            "image": "../image/rijf1.png"
+            "image": "../image/rijf/img1.png"
         }, 
         {  
         	"label": "image2",
-            "image": "../image/rijf2.png"
+            "image": "../image/rijf/img2.png"
         },
         {  
         	"label": "image3",
-            "image": "../image/rijf3.png"
+            "image": "../image/rijf/img3.png"
         },  
         {  
        		"label": "image4",
-            "image": "../image/rijf4.png"
+            "image": "../image/rijf/img4.png"
         },    
         {  
         	"label": "image5",
-            "image": "../image/rijf5.png"
+            "image": "../image/rijf/img5.png"
         }
 	]
 }
