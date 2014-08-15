@@ -1,4 +1,5 @@
-[  
+{
+	"rijf": [  
         {  
             "label": "image1",
             "image": "../image/rijf1.png"
@@ -19,4 +20,5 @@
         	"label": "image5",
             "image": "../image/rijf5.png"
         }
-]
+	]
+}
